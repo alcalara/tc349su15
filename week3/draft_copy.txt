@@ -1,0 +1,21 @@
+About us
+
+	IoF was founded in 2015 by Michigan State University student, Austin Alcalar. 
+	This site is devoted to providing instructions on how to make fun, internet-		enabled aquariums for your finned-friends. 
+
+
+Projects
+	Here’s how to make an internet enabled aquarium that uses the Raspberry Pi!
+
+Products
+	Here is a complete listing of products used in our aquarium projects. 
+
+Manufacturers
+	Makers of the products used in our products. 
+Forum
+	Feel free to contribute any ideas on how to make our projects better.  
+
+Contact info
+	Austin Alcalar
+	3009 Woodruff Ave #8
+	Lansing, MI, 48912
