@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Internet of Fish</title>
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <script language="JavaScript1.1">
+    var slideimages=new Array()
+    var slidelinks=new Array()
+    function slideshowimages(){
+    for (i=0;i<slideshowimages.arguments.length;i++){
+    slideimages[i]=new Image()
+    slideimages[i].src=slideshowimages.arguments[i]
+    }
+    }
+    function slideshowlinks(){
+    for (i=0;i<slideshowlinks.arguments.length;i++)
+    slidelinks[i]=slideshowlinks.arguments[i]
+    }
+    function gotoshow(){
+    if (!window.winslide||winslide.closed)
+    winslide=window.open(slidelinks[whichlink])
+    else
+    winslide.location=slidelinks[whichlink]
+    winslide.focus()
+    }
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <img src="images/unnamed.png" alt="betta fish logo" />
+      <h1>Internet of Fish</h1>
+    </div>
+    <div class="slideshow">
+      <a href="javascript:gotoshow()"><img src="aqua_filter.jpg" name="slide" border=0 width=300 height=375></a>
+      <script>
+      <!--
+
+      //configure the paths of the images, plus corresponding target links
+      slideshowimages("aqua_filter.jpg","aqua_light.jpg","aquarium_grass.jpg","cleaning.jpg","saltwater.jpg")
+
+      //configure the speed of the slideshow, in miliseconds
+      var slideshowspeed=2000
+
+      var whichlink=0
+      var whichimage=0
+      function slideit(){
+      if (!document.images)
+      return
+      document.images.slide.src=slideimages[whichimage].src
+      whichlink=whichimage
+      if (whichimage<slideimages.length-1)
+      whichimage++
+      else
+      whichimage=0
+      setTimeout("slideit()",slideshowspeed)
+      }
+      slideit()
+
+      //-->
+      </script>
+
+    </div>
+
+    <ul>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="forum.html">Forum</a></li>
+
+    </ul>
+    <p>
+      Welcome to the Internet of Fish! This website was established to educate
+      people on the subject of sustainable fishkeeping, as well as how to
+      implement pieces of technology into aquarium systems. Our goal is to
+      provide enough education so that an average person would be able to
+      create a self-sustaining ecosystem for their finned-friends.
+
+    </p>
+
+  </body>
+</html>
