@@ -1,0 +1,25 @@
+If you follow the links you’ll be able to see that my code is valid! Bueno.
+
+
+
+
+HTML VALIDATION
+
+for index page
+http://validator.w3.org/check?uri=http%3A%2F%2Falcalara.github.io%2Findex.html
+
+for projects page
+http://validator.w3.org/check?uri=http%3A%2F%2Falcalara.github.io%2Fprojects.html
+
+
+
+
+
+CSS VALIDATION
+
+for index page
+http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Falcalara.github.io%2Findex.html&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en
+
+
+for projects page
+http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Falcalara.github.io%2Fprojects.html&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en
